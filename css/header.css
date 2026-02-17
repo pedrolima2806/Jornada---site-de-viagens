@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     padding: 37px 48px;
+    position: relative;
 }
 
 .logo img {
@@ -18,9 +19,24 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
+
 }
 
 nav {
     display: none;
 }
 
+.list-links {
+    list-style: none;
+}
+
+.list-links li a {
+    color: var(--text-secondary-color);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
