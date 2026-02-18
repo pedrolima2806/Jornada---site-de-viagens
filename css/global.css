@@ -41,6 +41,22 @@ h1 {
   font-size: 2rem;
 }
 
-body{
-    font-family: "Montserrat", sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.section-title hr {
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px auto 32px;
+  align-self: center;
 }
