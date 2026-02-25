@@ -1,0 +1,42 @@
+.content {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.content-title {
+  font-size: 28px;
+}
+
+.content-text {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    width: 1200px;
+  }
+  .content-title {
+    font-size: 32px;
+  }
+  .content-text {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .content {
+    width: 2024px;
+  }
+}
