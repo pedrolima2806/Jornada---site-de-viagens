@@ -8,7 +8,8 @@
   height: 360px;
 }
 
-.item h2 {
+.item h3 {
+  font-size: 28px;
   margin: 24px 0;
 }
 .item .button {
@@ -27,6 +28,10 @@
 @media screen and (min-width: 768px) {
   .destination-itens {
     width: 648px;
+  }
+
+  .destination-itens .button {
+    width: 280px;
   }
 
   .item img {
@@ -58,6 +63,14 @@
     gap: 24px;
   }
 
+  .item h3 {
+    font-size: 32px;
+  }
+
+  .item p {
+    font-size: 28px;
+  }
+
   .item {
     width: 588px;
   }
@@ -65,5 +78,26 @@
   .item img {
     width: 588px;
     height: 452px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .destination-itens {
+    width: 2024px;
+    max-width: 2024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .item {
+    width: auto;
+    flex: 1 1 calc((2024px - 72px) / 4);
+  }
+
+  .item img {
+    width: 1000px;
+    height: 700px;
   }
 }
