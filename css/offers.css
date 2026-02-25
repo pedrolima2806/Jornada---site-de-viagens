@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 980px) {
   .card {
     width: 420px;
     height: 308px;
@@ -88,7 +88,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .card {
     width: 588px;
     height: 308px;

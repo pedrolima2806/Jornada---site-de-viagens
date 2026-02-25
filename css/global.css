@@ -50,6 +50,7 @@ body {
   font-size: 28px;
   font-weight: var(--title-weight);
   text-align: center;
+  margin-top: 64px;
 }
 
 .section-title hr {
