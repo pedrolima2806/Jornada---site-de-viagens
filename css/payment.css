@@ -77,3 +77,28 @@
     gap: 24px;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .payments .content {
+    width: 100%;
+    max-width: 2024px;
+    gap: 40px;
+  }
+
+  .payments .text-content {
+    width: 420px;
+  }
+
+  .payments .content-title {
+    font-size: 40px;
+  }
+
+  .payments .content-text {
+    font-size: 32px;
+  }
+
+  .payments .image-content {
+    width: 1600px;
+    height: 760px;
+  }
+}
