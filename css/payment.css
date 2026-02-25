@@ -1,0 +1,79 @@
+.content {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.content-title {
+  font-size: 28px;
+}
+
+.content-text {
+  font-size: 20px;
+}
+
+.payments .image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 520px;
+  margin-top: 24px;
+}
+
+.payments .image-content .image.first {
+  background-image: url("../img/payment-malas.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.payments .image-content .image.second {
+  background-image: url("../img/payment-passport.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.payments .image-content .image.third {
+  background-image: url("../img/payment-photo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.payments .image-content .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    width: 1200px;
+  }
+  .content-title {
+    font-size: 32px;
+  }
+  .content-text {
+    font-size: 28px;
+  }
+  .payments .text-content {
+    width: 360px;
+  }
+  .payments .image-content {
+    width: 840px;
+    height: 560px;
+  }
+  .payments .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 24px;
+  }
+}

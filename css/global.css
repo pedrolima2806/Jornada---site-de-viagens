@@ -46,6 +46,16 @@ body {
   color: var(--text-primary-color);
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -91,5 +101,19 @@ body {
   }
   .button:hover {
     background-color: var(--primary-color);
+  }
+
+  .content-title {
+    font-size: 32px;
+  }
+
+  .content-text {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-title h2 {
+    font-size: 36px;
   }
 }
