@@ -90,13 +90,13 @@
 
 @media screen and (min-width: 1920px) {
   .categories-cards {
-    width: 2024px;
-    max-width: 2024px;
+    width: 1200px;
+    max-width: 1200px;
   }
 
   .catg-card {
     width: auto;
-    flex: 1 1 calc((2024px - 72px) / 4);
+    flex: 1 1 calc((1200px - 72px) / 4);
   }
 
   .pacotes-internacionais {
